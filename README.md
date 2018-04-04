@@ -1,4 +1,3 @@
-MDwiki
-======
+Example pages created with [MDwiki](http://www.mdwiki.info)
 
-See http://www.mdwiki.info/ for more documentation and details.
+# See <http://dynalon.github.io/mdwiki-examples/> for preview.
