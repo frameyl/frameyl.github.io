@@ -1,7 +1,7 @@
-Chris' websites
+Chris' website
 -----------------------
 
-Chris' personal websites [GitHub][githubrepo].
+Chris' personal website [GitHub][githubrepo].
 
 * [Sample coffee place](cafe/) [[Markdown source]][cafe]
 * [Simple travel blog website](travel_blog/) [[Markdown source]][travelblog]
@@ -9,16 +9,14 @@ Chris' personal websites [GitHub][githubrepo].
 
 
 [githubrepo]: https://github.com/frameyl/frameyl.github.io
-[cafe]: https://github.com/frameyl/cafe
-[musclecards]: https://github.com/frameyl/mdwiki-examples/tree/gh-pages/muscle_cars
-[travelblog]: https://github.com/frameyl/mdwiki-examples/tree/gh-pages/travel_blog
+[cafe]: https://github.com/frameyl/frameyl.github.io/tree/master/cafe
+[musclecards]: https://github.com/frameyl/frameyl.github.io/tree/master/cafe/muscle_cars
+[travelblog]: https://github.com/frameyl/frameyl.github.io/tree/master/cafe/travel_blog
 
 Wiki
 ----
 
-NLP Deep Learning Docs
-
-[nlpdocs]: https://github.com/frameyl/
+[NLP Deep Learning Docs](nlp_docs/)
 
 License
 -------
