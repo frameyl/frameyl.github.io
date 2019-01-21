@@ -1,4 +1,4 @@
-# MDwiki examples
+# Chris Front Page
 
 [gimmick:Theme (inverse: false)](flatly)
 [gimmick:ForkMeOnGitHub](http://github.com/Dynalon/mdwiki-examples/)
