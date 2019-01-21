@@ -16,7 +16,7 @@ Chris' personal website [GitHub][githubrepo].
 Wiki
 ----
 
-[NLP Deep Learning Docs](nlp_docs/)
+* [NLP Deep Learning Docs](nlp_docs/)
 
 License
 -------
