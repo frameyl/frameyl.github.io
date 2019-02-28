@@ -1,0 +1,2 @@
+Serverless指的是去Server化的一种应用部署架构。
+

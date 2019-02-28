@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C标准库</title>
+    <style type="text/css" media="all">
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #777;
+        background-color: white;
+      }
+      .container {
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .post {
+        font-family: Georgia, "Times New Roman", Times, "SimSun", serif;
+        position: relative;
+        padding: 70px;
+        bottom: 0;
+        overflow-y: auto;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 25px;
+        color: #515151;
+      }
+
+      .post h1{
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-bottom: 40px;
+        color: inherit;
+      }
+
+      .post p {
+        margin: 0 0 35px 0;
+      }
+
+      .post img {
+        border: 1px solid #D9D9D9;
+      }
+
+      .post a {
+        color: #28A1C5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="post">
+        <h1 class="title">C标准库</h1>
+        <div class="show-content">
+          <p>今天总结一下C语言标准库。</p><p>C语言标准库（C89）包含15个头文件，新的C99以及C11又定义了一些其他的库，这里略过不说，常用的如下，</p><p>&lt;assert.h&gt; - 包含assert()函数，这个函数现在还有人用吗？至少我这几年没有见人用了，因为它会直接导致进程退出，而且只会记下当前的调用栈，只能发现问题而不能帮助解决问题，在现实中使用日志系统或者直接用标准输出记录问题会帮助更大。</p><p>&lt;ctype.h&gt; - 字符测试函数，可能有很多人喜欢自己实现类似islower()或者tolower()的函数，不过这个库里的函数在某些场景真的很有用。不如isalnum()检查是不是字母或者数字，isprint()检查是不是可打印的字符，还有isspace()可以检查是不是白空格。</p><p>&lt;errno.h&gt; - 很多库函数或者系统函数会把错误代码写入errno. 记录错误日志时，要检查一下出错的调用是否记录errno。</p><p>&lt;math.h&gt; - 数学运算的库，常用的如幂运算pow()和余数运算fmod().</p><p>&lt;stdarg.h&gt; - 如果函数中使用了可变参数，需要用这个库来解析这些参数。</p><p>&lt;stdio.h&gt; - 这可能是C语言最常用的头文件了吧，定义了一些文件操作的方法，比如打开文件fopen()，和关闭文件fclose()，以及输出格式化字符串printf(), sprintf()和snprintf()。注意snprintf()是C99标准定义的函数，有些老的编译器不支持。</p><p>&lt;stdlib.h&gt; - 定义了字符串转换成数字的函数如atof(), atoi()，以及内存分配和释放的函数malloc(), calloc()等。</p><p>&lt;string.h&gt; - 定义了字符数组的操作，如strcpy(),strcmp()等。还有内存复制的操作如memcpy()，memmove()等。</p><p>还有一些不太常用的头文件，比如&lt;float.h&gt; &lt;limits.h&gt; &lt;setjmp.h&gt; &lt;signal.h&gt; &lt;stddef.h&gt; &lt;locale.h&gt; &lt;time.h&gt;.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

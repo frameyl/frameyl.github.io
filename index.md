@@ -23,4 +23,4 @@ License
 Power by [MDwiki]
 
   [MDwiki]: http://www.mdwiki.info
-  [cc]: http://creativecommons.org/licenses/
+

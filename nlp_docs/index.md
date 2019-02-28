@@ -13,3 +13,4 @@ Links To Doc2Vec
 [基于word2vec训练词向量(一)](https://www.jianshu.com/p/b05dfd48c43f)
 [基于word2vec训练词向量(二)](https://www.jianshu.com/p/4aad5d3b813d)
 [基于Doc2vec训练句子向量](https://www.jianshu.com/p/62516dcca2c2)
+
